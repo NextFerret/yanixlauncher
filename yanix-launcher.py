@@ -54,8 +54,7 @@ else:
 DATA_DOWNLOAD_URL = "https://theofficialdt.github.io/data.zip"
 BACKGROUNDS_DOWNLOAD_URL = "https://theofficialdt.github.io/downloads/yorkipoo/backgrounds/backgrounds.zip"
 PADMODE_DOWNLOAD_URL = "https://theofficialdt.github.io/downloads/padmode.py"
-LATEST_VERSION_URL = "https://raw.githubusercontent.com/theofficialdt/yanix-launcher/refs/heads/main/yanix-launcher.py"
-
+LATEST_VERSION_URL = "https://raw.githubusercontent.com/NextFerret/yanixlauncher/refs/heads/main/yanix-launcher.py"
 TEMP_ZIP_PATH = os.path.join(YANIX_PATH, "data.zip")
 TEMP_BG_ZIP_PATH = os.path.join(YANIX_PATH, "backgrounds.zip")
 
