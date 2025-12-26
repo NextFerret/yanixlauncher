@@ -1554,16 +1554,16 @@ class YanixLauncher(QMainWindow):
 
     def show_credits(self):
         credits_text = """
-Yanix Launcher Was Made by:
-Seyu's Stuff
+Yanix Launcher Is Made by:
+NextFerret Organization™
 
 Volunteers:
-Ayovizzion, Ashxlek
+Ayovizzion, Ashxlek (0.5~0.8?)
 
 Supporters:
-Akashiraii, SlayAllDay2, Sara-chan
+Akashiraii , SlayAllDay2, Sara-chan , Pwyzthur
 
-Yanix Launcher™ Made by Yanix Launcher Community™, All Rights Reserved
+Yanix Launcher™ Made by NextFerret™, All Rights Reserved
 Yandere Simulator™ Made By YandereDev, All Rights Reserved
 """
         QMessageBox.information(self, self.lang["credits"], credits_text)
