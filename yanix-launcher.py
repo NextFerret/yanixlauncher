@@ -40,18 +40,18 @@ IS_MACOS = platform.system() == 'Darwin'
 
 if IS_MACOS:
     app = QApplication(sys.argv)
-    QMessageBox.critical(None, "macOS Detected", "macOS and Apple Silicon are unsupported. Use a Linux distribution. FEX may be used as an alternative on Apple hardware with Asahi Linux")
+    QMessageBox.critical(None, "macOS Detected", "macOS is not supported")
     sys.exit(1)
 
 CLIENT_ID = '1383809366460989490'
-USER_AGENT = 'YanixLauncher/1.0.8'
+USER_AGENT = 'YanixLauncher/1.0.9'
 
 if IS_WINDOWS:
     YANIX_PATH = os.path.join(os.getenv('LOCALAPPDATA'), 'yanix-launcher')
 else:
     YANIX_PATH = os.path.expanduser("~/.local/share/yanix-launcher")
 
-DATA_DOWNLOAD_URL = "https://theofficialdt.github.io/data.zip"
+DATA_DOWNLOAD_URL = "https://nextferret.github.io/data.zip"
 BACKGROUNDS_DOWNLOAD_URL = "https://theofficialdt.github.io/downloads/yorkipoo/backgrounds/backgrounds.zip"
 PADMODE_DOWNLOAD_URL = "https://theofficialdt.github.io/downloads/padmode.py"
 LATEST_VERSION_URL = "https://raw.githubusercontent.com/NextFerret/yanixlauncher/refs/heads/main/yanix-launcher.py"
@@ -94,7 +94,7 @@ LANGUAGES = {
     "en": {
         "welcome": "Welcome to Yanix Launcher", "loading": "Loading", "play": "Play", "github": "GitHub", "settings": "Settings",
         "download": "Download Game", "select_language": "Select Language", "select_exe": "Select .exe for WINE", "support": "Support",
-        "discord": "Discord", "lang_changed": "Language changed!", "exit": "Exit", "missing_path": "Uh oh, try extract in home folder",
+        "discord": "Discord", "lang_changed": "Settings applied!", "exit": "Exit", "missing_path": "Uh oh, try extract in home folder",
         "winetricks": "Winetricks", "no_internet": "No internet connection. Please check your network and try again.",
         "downloading_data": "Downloading Data File....", "extracting_data": "Extracting Files....", "download_failed": "Failed to download data.",
         "extract_failed": "Failed to extract data.", "download_success": "Data downloaded and extracted successfully!",
@@ -134,7 +134,7 @@ LANGUAGES = {
     "es": {
         "welcome": "Bienvenido a Yanix Launcher", "loading": "Cargando", "play": "Jugar", "github": "GitHub", "settings": "Configuración",
         "download": "Descargar Juego", "select_language": "Seleccionar Idioma", "select_exe": "Seleccionar .exe para WINE", "support": "Soporte",
-        "discord": "Discord", "lang_changed": "¡Idioma cambiado!", "exit": "Salir", "missing_path": "Uh oh, intenta extraerlo en tu carpeta personal",
+        "discord": "Discord", "lang_changed": "¡Configuración aplicada!", "exit": "Salir", "missing_path": "Uh oh, intenta extraerlo en tu carpeta personal",
         "winetricks": "Winetricks", "no_internet": "Sin conexión de internet. Por favor, revisa tu red e inténtalo de nuevo.",
         "downloading_data": "Descargando archivo de datos....", "extracting_data": "Extrayendo archivos....", "download_failed": "Fallo al descargar datos.",
         "extract_failed": "Fallo al extraer datos.", "download_success": "Datos descargados y extraídos exitosamente!",
@@ -174,7 +174,7 @@ LANGUAGES = {
     "pt": {
         "welcome": "Bem-vindo ao Yanix Launcher", "loading": "Carregando", "play": "Jogar", "github": "GitHub", "settings": "Configurações",
         "download": "Baixar Jogo", "select_language": "Selecionar Idioma", "select_exe": "Selecionar .exe para WINE", "support": "Suporte",
-        "discord": "Discord", "lang_changed": "Idioma alterado!", "exit": "Sair", "missing_path": "Uh oh... tente extrai-lo na sua pasta pessoal.",
+        "discord": "Discord", "lang_changed": "Configurações aplicadas!", "exit": "Sair", "missing_path": "Uh oh... tente extrai-lo na sua pasta pessoal.",
         "winetricks": "Winetricks", "no_internet": "Sem conexão com a internet. Por favor, verifique sua rede e tente novamente.",
         "downloading_data": "Baixando arquivo de dados....", "extracting_data": "Extraindo arquivos....", "download_failed": "Falha ao baixar dados.",
         "extract_failed": "Falha ao extrair dados.", "download_success": "Dados baixados e extraídos com sucesso!",
@@ -214,7 +214,7 @@ LANGUAGES = {
     "ru": {
         "welcome": "Добро пожаловать в Yanix Launcher", "loading": "Загрузка", "play": "Играть", "github": "GitHub", "settings": "Настройки",
         "download": "Скачать игру", "select_language": "Выбрать язык", "select_exe": "Выбрать .exe для WINE", "support": "Поддержка",
-        "discord": "Discord", "lang_changed": "Язык изменен!", "exit": "Выход", "missing_path": "Упс, попробуйте извлечь в домашнюю папку",
+        "discord": "Discord", "lang_changed": "Настройки применены!", "exit": "Выход", "missing_path": "Упс, попробуйте извлечь в домашнюю папку",
         "winetricks": "Управление Winetricks", "no_internet": "Нет подключения к интернету. Пожалуйста, проверьте свою сеть и повторите попытку.",
         "downloading_data": "Загрузка файла данных....", "extracting_data": "Извлечение файлов....", "download_failed": "Не удалось загрузить данные.",
         "extract_failed": "Не удалось извлечь данные.", "download_success": "Данные успешно загружены и извлечены!",
@@ -254,7 +254,7 @@ LANGUAGES = {
     "ja": {
         "welcome": "Yanix Launcherへようこそ", "loading": "読み込み中", "play": "プレイ", "github": "GitHub", "settings": "設定",
         "download": "ゲームをダウンロード", "select_language": "言語を選択", "select_exe": "WINE用の.exeを選択", "support": "サポート",
-        "discord": "Discord", "lang_changed": "言語が変更されました！", "exit": "終了", "missing_path": "うーん、ホームフォルダに抽出してみてください",
+        "discord": "Discord", "lang_changed": "設定が適用されました！", "exit": "終了", "missing_path": "うーん、ホームフォルダに抽出してみてください",
         "winetricks": "Winetricks", "no_internet": "インターネット接続がありません。ネットワークを確認してもう一度お試しください。",
         "downloading_data": "データファイルをダウンロード中....", "extracting_data": "ファイルを展開中....", "download_failed": "データのダウンロードに失敗しました。",
         "extract_failed": "データの抽出に失敗しました。", "download_success": "データが正常にダウンロードされ、抽出されました！",
@@ -294,7 +294,7 @@ LANGUAGES = {
     "ko": {
         "welcome": "Yanix Launcher에 오신 것을 환영합니다", "loading": "로딩 중", "play": "플레이", "github": "GitHub", "settings": "설정",
         "download": "게임 다운로드", "select_language": "언어 선택", "select_exe": "WINE용 .exe 선택", "support": "지원",
-        "discord": "Discord", "lang_changed": "언어가 변경되었습니다!", "exit": "종료", "missing_path": "오류, 홈 폴더에 압축을 풀어 보세요",
+        "discord": "Discord", "lang_changed": "설정이 적용되었습니다!", "exit": "종료", "missing_path": "오류, 홈 폴더에 압축을 풀어 보세요",
         "winetricks": "Winetricks", "no_internet": "인터넷 연결이 없습니다. 네트워크를 확인하고 다시 시도하십시오.",
         "downloading_data": "데이터 파일 다운로드 중....", "extracting_data": "파일 압축 해제 중....", "download_failed": "데이터 다운로드 실패.",
         "extract_failed": "데이터 추출 실패.", "download_success": "데이터가 성공적으로 다운로드 및 추출되었습니다!",
@@ -334,7 +334,7 @@ LANGUAGES = {
     "ndk": {
         "welcome": "niko Niko-Launcher!", "loading": "You Activated the Nikodorito Easter-egg!", "play": "Niko", "github": "GitHub", "settings": "Meow",
         "download": "Dalad Gaem", "select_language": "niko to to ni", "select_exe": "niko to to ni WINE", "support": "niko to to ni",
-        "discord": "Discorda", "lang_changed": "Niko DOrito! Niko dorito kimegasu", "exit": "nikotorito", "missing_path": "Uh oh, try extract in home foldar, stupid",
+        "discord": "Discorda", "lang_changed": "Niko settings applied!", "exit": "nikotorito", "missing_path": "Uh oh, try extract in home foldar, stupid",
         "winetricks": "manage the fucking winetricks", "no_internet": "no internet. check your network, stupid.", "downloading_data": "downloading daka file....",
         "extracting_data": "extracting files....", "download_failed": "fail to download daka.", "extract_failed": "fail to extract daka.",
         "download_success": "daka downloaded and extracted successfully!", "wineprefix": "manage the fucking wineprefix",
@@ -504,6 +504,24 @@ THEMES = {
         "button_hover_bg_color": "#206935",
         "label_text_color": "#F8B229",
         "border_color": "#F8B229"
+    },
+    "rio-morning": {
+        "background_color_start": "#87CEEB",
+        "background_color_end": "#FFFACD",
+        "button_bg_color": "#3CB371",
+        "button_text_color": "#FFFFFF",
+        "button_hover_bg_color": "#2E8B57",
+        "label_text_color": "#000000",
+        "border_color": "#20B2AA"
+    },
+    "rio-night": {
+        "background_color_start": "#000033",
+        "background_color_end": "#4B0082",
+        "button_bg_color": "#FFD700",
+        "button_text_color": "#000000",
+        "button_hover_bg_color": "#FFA500",
+        "label_text_color": "#FFFFFF",
+        "border_color": "#FF4500"
     }
 }
 
@@ -586,42 +604,31 @@ class YanixSplashScreen(QSplashScreen):
     def __init__(self, current_lang_data):
         super().__init__()
         self.current_lang = current_lang_data
-        self.setFixedSize(600, 300)
+        self.setFixedSize(823, 339)
         self.setWindowFlags(Qt.WindowType.WindowStaysOnTopHint | Qt.WindowType.FramelessWindowHint)
-        self.message = ""
+        self.message = self.current_lang["loading"]
         self.progress_text = ""
-        self.update_splash_content(self.current_lang["downloading_data"])
+        self.splash_img_path = os.path.join(YANIX_PATH, "data", "splash.png")
+        self.update_splash_content(self.current_lang["loading"])
 
     def paintEvent(self, event):
         painter = QPainter(self)
-        rect = self.rect()
+        if os.path.exists(self.splash_img_path):
+            pixmap = QPixmap(self.splash_img_path)
+            painter.drawPixmap(0, 0, self.width(), self.height(), pixmap)
+        else:
+            painter.fillRect(self.rect(), QColor(20, 20, 20))
 
-        gradient = QLinearGradient(0, 0, 0, rect.height())
-        gradient.setColorAt(0, QColor(THEMES["yanix-legacy"]["background_color_start"]))
-        gradient.setColorAt(1, QColor(THEMES["yanix-legacy"]["background_color_end"]))
-        painter.fillRect(rect, gradient)
-
-        painter.setPen(QColor(0, 0, 0))
-        painter.drawRect(rect.adjusted(20, 20, -20, -20))
-
-        text_rect = QRect(rect.width() // 2 - 200, rect.height() // 2 - 50, 400, 100)
-
-        font_title = QFont("Jost", 32, QFont.Weight.Bold)
-        painter.setFont(font_title)
         painter.setPen(QColor(255, 255, 255))
-        painter.drawText(text_rect, Qt.AlignmentFlag.AlignCenter, "Yanix Launcher")
-
-        font_message = QFont("Jost", 16)
+        font_message = QFont("Jost", 24, QFont.Weight.Bold)
         painter.setFont(font_message)
-        painter.setPen(QColor(0, 0, 0))
-        message_rect = QRect(rect.width() // 2 - 200, rect.height() // 2 + 10, 400, 50)
-        painter.drawText(message_rect, Qt.AlignmentFlag.AlignCenter, self.message)
+        painter.drawText(self.rect(), Qt.AlignmentFlag.AlignCenter, self.message)
 
-        font_progress = QFont("Jost", 12)
-        painter.setFont(font_progress)
-        painter.setPen(QColor(0, 0, 0))
-        progress_rect = QRect(rect.width() - 150, rect.height() - 50, 100, 30)
-        painter.drawText(progress_rect, Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignBottom, self.progress_text)
+        if self.progress_text:
+            font_progress = QFont("Jost", 12)
+            painter.setFont(font_progress)
+            progress_rect = QRect(self.width() - 200, self.height() - 40, 190, 30)
+            painter.drawText(progress_rect, Qt.AlignmentFlag.AlignRight | Qt.AlignmentFlag.AlignBottom, self.progress_text)
 
     def update_splash_content(self, message, progress=""):
         self.message = message
@@ -684,6 +691,8 @@ class StartupWorker(QObject):
                 os.remove(temp_path)
 
     def run(self):
+        time.sleep(2)
+        
         target_data_folder = os.path.join(YANIX_PATH, "data")
         if not (os.path.exists(target_data_folder) and os.listdir(target_data_folder)):
             self.download_and_extract(
@@ -750,8 +759,8 @@ class StartupWorker(QObject):
         self.signals.download_complete.emit()
 
 class UpdateChecker(QObject):
-    def __init__(self, current_version, lang_data, signals):
-        super().__init__()
+    def __init__(self, current_version, lang_data, signals, parent=None):
+        super().__init__(parent)
         self.current_version = current_version
         self.lang_data = lang_data
         self.signals = signals
@@ -1586,7 +1595,7 @@ Yandere Simulator™ Made By YandereDev, All Rights Reserved
         self.support_button.setText(self.lang["support"])
         self.discord_button.setText(self.lang["discord"])
         self.credits_button.setText(self.lang["credits"])
-        self.version_label.setText(f"{self.lang['welcome']} v{self.current_launcher_version} — Ferret ")
+        self.version_label.setText(f"{self.lang['welcome']} v{self.current_launcher_version} — Rio ")
         self.apply_theme(self.config["theme"])
 
     def setup_ui(self):
@@ -1694,8 +1703,8 @@ if __name__ == "__main__":
 
     startup_thread = threading.Thread(target=startup_worker.run, daemon=True)
 
-    signals.download_complete.connect(lambda: splash.update_splash_content(current_lang_data["download_success"]))
-    signals.extraction_complete.connect(lambda: splash.update_splash_content(current_lang_data["download_success"]))
+    signals.download_complete.connect(lambda: splash.update_splash_content(current_lang_data["loading"]))
+    signals.extraction_complete.connect(lambda: splash.update_splash_content(current_lang_data["loading"]))
 
     startup_thread.start()
 
