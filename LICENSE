@@ -1,112 +1,79 @@
-Niko’s License v4.0 (NLv4) — October 2025
+NextFerret License v1.0 (NFLv1) — December 2025
 
-Copyright © NikoYandere, 2025
+Copyright © NextFerret, 2025
 
-Summary
-
-NLv4 keeps the copyleft spirit but is more open-source friendly. It allows free use, modification, and redistribution of the Original or Derivative Work for personal, educational, and commercial purposes, while keeping proper attribution to the original author. Forks and contributions are encouraged and simplified for maximum collaboration. NLv4 aims to balance freedom for developers with recognition for the original author, ensuring a fair ecosystem for both personal projects and commercial ventures.
 
 1. Definitions
 
-Original Work: The software, codebase, or project initially released under this license. This includes all files, documentation, and other resources explicitly included in the initial release.
+"Original Work" means the software, source code, and associated documentation initially released under this License.
 
-Derivative Work: Any modification, fork, translation, enhancement, or other transformation of the Original Work, including additions, deletions, and adaptations.
+"Derivative Work" means any modification, adaptation, translation, or enhancement of the Original Work.
 
-Licensee (You): Any person or entity using, modifying, or distributing the Work under this license. You accept the terms by simply using or distributing the software.
+"Distribution" means any act of sharing, selling, or providing access to the Work to third parties.
 
-Distribution: Any act of providing or sharing the Work with others, whether publicly or privately, digitally or physically.
-
-Commercial Distribution: Distribution involving any form of financial gain, such as selling the Work, offering paid features, or including it in monetized services.
-
-Declared Fork: A Derivative Work clearly stating it is a fork of the Original Work with proper attribution and acknowledgement of the original author.
-
-Platform: Any service, marketplace, or system where the Work is published, sold, or accessed. This includes digital stores, app repositories, and hosting platforms.
+"SaaS Provision" means providing the functionality of the Work to users over a network (Software as a Service).
 
 2. Grant of Rights
 
-2.1 Use, Modify, and Study
-You may freely use, modify, and study the Original or Derivative Work for any purpose, including personal, educational, experimental, or commercial use. There are no limitations on how the Work may be utilized, enabling experimentation, innovation, and learning.
+Subject to the terms of this License, you are granted a worldwide, royalty-free, non-exclusive license to:
 
-2.2 Forking and Redistribution
-You are allowed to create forks, adaptations, translations, or any other form of Derivative Work. Redistribution is permitted under NLv4 as long as attribution to the original author is maintained. This encourages open collaboration while respecting the contribution of the original developer.
 
-3. Commercial Distribution
+Use and Study: Run the software for any purpose (personal, educational, or commercial).
 
-3.1 Original Author Rights
-The original author retains the right to commercialize the Original Work. This ensures that the original creator can benefit from their efforts.
+Modify: Create Derivative Works and adaptations.
 
-3.2 Third-Party Forks
-Third-party developers may commercialize Declared Forks freely, without mandatory fees or royalties, provided that attribution is clear. This allows open-source developers to monetize their own versions while respecting the original work.
+Distribute and Fork: Copy and share the Original Work or Derivative Works, provided that the conditions in Section 3 and 4 are met.
 
-3.3 Attribution
-Every distribution of the Work, whether commercial or non-commercial, must include:
+3. Strong Copyleft Obligations
 
-A copy of this license within the source code, or
+The NFLv1 is a reciprocal license. To ensure the software remains free and open:
 
-A clear statement such as “Licensed under NLv4 by NikoYandere.”
 
-3.4 Freemium Versions
-Original authors may offer freemium versions (free base version with paid features). Third-party developers may also create freemium adaptations of Derivative Works, maintaining transparency about which features are free and which are paid.
+3.1 License Consistency: Any Derivative Work that you distribute or provide via SaaS must be licensed under this same License (NFLv1) or any later version of the NextFerret License. You may not impose further restrictions on the rights granted herein.
 
-4. Source Code & Openness
+3.2 Source Code Availability: If you distribute the Work or a Derivative Work, you must make the complete, machine-readable source code available to the recipients, including any scripts or configuration files required to build and run the software.
 
-Derivative Works must remain open-source under NLv4.
+3.3 Network Use (SaaS): Providing access to the software’s functionality via a network (SaaS) is considered Distribution under this License. You must make the source code of your version available to all users interacting with it.
 
-The complete source code must be available whenever the Work is distributed.
+4. Attribution
 
-Modifications must be documented clearly in changelogs or accompanying documentation, ensuring transparency and helping other developers understand changes.
+Every Distribution of the Work, including Derivative Works, must include:
 
-Encourages collaboration and learning, fostering a community of developers contributing improvements back to the ecosystem.
 
-5. Attribution
+A copy of this License.
 
-All copies of the Work must retain original copyright notices.
+A clear statement: "Licensed under NFLv1 by [Original Author Name]."
 
-Derivative Works must credit the original author in a clear manner, such as in documentation, headers, or project descriptions.
+Credits to the original author in documentation, "About" sections, or source code headers.
 
-The full license text must accompany any distribution to ensure that downstream users are aware of their rights and responsibilities.
+5. Commercial Use and Monetization
 
-6. Warranty & Liability
+5.1 Author Rights: The original author reserves the right to offer "Freemium" versions or separate commercial licenses for the Original Work.
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT ANY WARRANTY.
-The authors or contributors cannot be held liable for any damages, loss of data, or other consequences arising from using the Work. Users are responsible for testing, verifying, and using the software safely.
+5.2 Third-Party Commercialization: You are permitted to commercialize "Declared Forks" (e.g., selling access, support, or features), provided that the fork remains open-source under NFLv1 and maintains full attribution to the original creator.
 
-7. Termination
+6. Contributions
 
-Violation of any license terms will immediately terminate your rights under NLv4. Upon termination, you must cease distribution and commercialization of the Work or any derivative.
+By contributing to the Original Work, you agree to license your contribution under NFLv1. The original author may use these contributions in any version of the software (commercial or non-commercial) while maintaining credit to the contributor.
 
-8. Governing Law
 
-NLv4 is governed by the laws of the jurisdiction of the original copyright holder. This applies to disputes, enforcement, and legal interpretation of the license.
+7. Patent Grant
 
-9. Contributions
+This License includes a royalty-free, non-exclusive patent grant from all contributors to the user. If you institute patent litigation against any contributor alleging that the Work constitutes patent infringement, your rights under this License shall terminate automatically.
 
-Contributions from third parties are incorporated under NLv4.
 
-Contributors retain credit for their work.
+8. No Warranty & Limitation of Liability
 
-The original author may use contributions in commercial or non-commercial versions without additional permission.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
 
-10. Patent Grant
 
-NLv4 includes a royalty-free, non-exclusive patent grant for use of the software.
+9. Termination
 
-Patent claims made against the original holder or contributors regarding the Work will automatically void this license for the claimant.
+Any failure to comply with the terms of this License (such as failing to provide source code or removing attribution) will result in the automatic and immediate termination of your rights under this License.
 
-11. Trademarks
 
-No trademark rights are granted. Use of names, logos, or branding requires separate explicit permission from the owner.
+10. Severability
 
-12. SaaS / Network Use
+If any provision of this License is held to be unenforceable or invalid, the remaining provisions shall remain in full force and effect.
 
-Providing the Work as a service (Software as a Service – SaaS) is not considered distribution. However, license and attribution information must be accessible to users. This ensures transparency and recognition even in networked applications or cloud services.
-
-13. Encouragement of Community & Collaboration
-
-NLv4 strongly encourages community collaboration, sharing improvements, and contributing to open-source development. Developers are invited to build on the Work, create educational resources, or contribute back to the original project, fostering a healthy and open ecosystem for innovation.
-
-14. Severability
-
-If any part of this license is found invalid, the rest of the license remains in full effect.
-
-End of Niko’s License Version 4.0 (NLv4)
+End of License
